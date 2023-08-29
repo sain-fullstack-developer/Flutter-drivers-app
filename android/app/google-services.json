@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514854751503",
+    "project_id": "drivers-app-ola",
+    "storage_bucket": "drivers-app-ola.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514854751503:android:665645a78fc8f1c9e1827a",
+        "android_client_info": {
+          "package_name": "com.example.ola_drivers_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514854751503-ebg4f31c44m2vfdcehq2o5g27cltersb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQkSbihlW_pTUI0fcbIvgFRO7EPJGYFqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514854751503-ebg4f31c44m2vfdcehq2o5g27cltersb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
