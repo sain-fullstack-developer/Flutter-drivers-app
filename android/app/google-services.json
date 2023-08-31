@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "514854751503",
+    "firebase_url": "https://drivers-app-ola-default-rtdb.firebaseio.com",
     "project_id": "drivers-app-ola",
     "storage_bucket": "drivers-app-ola.appspot.com"
   },
@@ -29,6 +30,13 @@
             {
               "client_id": "514854751503-ebg4f31c44m2vfdcehq2o5g27cltersb.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "514854751503-at0t9sdmamkegbu03mfmtv9u8bv7isas.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.olaDriversApp.RunnerTests"
+              }
             }
           ]
         }

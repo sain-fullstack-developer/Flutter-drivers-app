@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:ola_drivers_app/firebase_options.dart';
 import 'package:ola_drivers_app/splashScreen/splash_screen.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  FirebaseOptions options = FirebaseOptions(
-    apiKey: 'AIzaSyCQkSbihlW_pTUI0fcbIvgFRO7EPJGYFqE',
-    appId: 'com.example.ola_drivers_app',
-    projectId: 'drivers-app-ola',
-    messagingSenderId: '514854751503',
-  );
 
   // Initialize the Firebase SDK.
-  await Firebase.initializeApp(options: options);
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   await FirebaseMessaging.instance.requestPermission();
 
